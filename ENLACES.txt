@@ -1,0 +1,32 @@
+MESAHELP — ENTREGA ACADÉMICA INDIVIDUAL
+Autor: Hector Alejandro Garcés
+Institución: Corporación Universitaria Autónoma del Cauca
+Asignatura: Sistemas de Información Empresariales
+Versión: MesaHelp v0.3.1 · validación funcional local
+Actualización documental: 11 de noviembre de 2026
+
+REPOSITORIO PÚBLICO (código y documentación)
+https://github.com/KIRZONMAN/mesahelp-mvp
+Rama principal: main · CI: https://github.com/KIRZONMAN/mesahelp-mvp/actions
+
+PORTAL DE DOCUMENTACIÓN EN GITHUB PAGES
+https://kirzonman.github.io/mesahelp-mvp/
+Manuales PDF: https://github.com/KIRZONMAN/mesahelp-mvp/tree/main/docs/academicos
+Soporte técnico mediante incidencias públicas sin datos privados: https://github.com/KIRZONMAN/mesahelp-mvp/issues
+
+APLICACIÓN FUNCIONAL
+Ejecución local en Node.js 22.13+ y SQLite; instrucciones en README y Manual Técnico.
+URL local de demostración: http://127.0.0.1:3013/login
+ATENCIÓN: esta URL solo responde desde el computador que ejecuta Node.js.
+No se ha publicado el servidor de MesaHelp como aplicación web en Internet.
+
+PRUEBAS
+33/33 automatizadas aprobadas en Windows; GitHub Actions (primera ejecución) correcto.
+Validación manual con Opera y Excel favorable.
+GitHub Pages no ejecuta Node.js ni SQLite.
+
+PENDIENTES DE VERIFICACIÓN ACADÉMICA
+- Confirmar nomenclatura individual con Jefferson.
+- Ensayar sustentación y probar el manual con una persona ajena al desarrollo.
+- Mantener a mano un respaldo privado y credenciales de DEMOSTRACIÓN no publicadas.
+- Horario solicitado: jueves 12/11/2026 a las 9:00 a. m.; confirmación específica no aportada.

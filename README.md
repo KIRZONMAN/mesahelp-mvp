@@ -3,7 +3,7 @@
 **Proyecto académico individual · Corporación Universitaria Autónoma del Cauca**  
 **Autor:** Hector Alejandro Garcés  
 **Asignatura:** Sistemas de Información Empresariales  
-**Versión:** v0.3.1, candidata académica de cierre (11 de noviembre de 2026)
+**Versión:** v0.3.1, cierre funcional validado para demostración local (11 de noviembre de 2026)
 
 MesaHelp es una aplicación web que permite registrar, clasificar, gestionar y dar seguimiento a solicitudes mediante tickets. No corrige automáticamente las incidencias: organiza la atención y conserva la trazabilidad de cada actuación.
 
@@ -61,7 +61,7 @@ npm.cmd run check:codex         # estructura de definiciones Codex
 npm.cmd run backup              # genera respaldo en una ruta privada
 ```
 
-Las pruebas también se ejecutan mediante **GitHub Actions** en cada `push` a `main` y en cada pull request. El resultado del workflow remoto solo se conocerá después de publicar este repositorio.
+Las pruebas también se ejecutan mediante **GitHub Actions** en cada `push` a `main` y en cada pull request. El primer workflow en GitHub Actions terminó correctamente para el commit `a0c17bf` en `main`.
 
 ## Documentación académica
 
@@ -69,8 +69,8 @@ Las pruebas también se ejecutan mediante **GitHub Actions** en cada `push` a `m
 
 | Anexo | Documento | Estado |
 |---|---|---|
-| A | [Manual de usuario](docs/academicos/SIE_Individual_Anexo-A_ManualUsuario.pdf) | Obligatorio · borrador personalizado |
-| B | [Manual técnico](docs/academicos/SIE_Individual_Anexo-B_ManualTecnico.pdf) | Obligatorio · borrador personalizado |
+| A | [Manual de usuario](docs/academicos/SIE_Individual_Anexo-A_ManualUsuario.pdf) | Obligatorio · actualizado con enlaces verificados |
+| B | [Manual técnico](docs/academicos/SIE_Individual_Anexo-B_ManualTecnico.pdf) | Obligatorio · actualizado con enlaces verificados |
 | C | [Requisitos y alcance](docs/academicos/SIE_Individual_Anexo-C_RequisitosAlcance.pdf) | Sugerido |
 | D | [Modelo y diccionario](docs/academicos/SIE_Individual_Anexo-D_ModeloDiccionario.pdf) | Sugerido |
 | E | [Pruebas y evidencias](docs/academicos/SIE_Individual_Anexo-E_PruebasEvidencias.pdf) | Sugerido |
@@ -79,7 +79,7 @@ Las pruebas también se ejecutan mediante **GitHub Actions** en cada `push` a `m
 | H | [Implementación y soporte](docs/academicos/SIE_Individual_Anexo-H_ImplementacionSoporte.pdf) | Sugerido |
 | I | [Gestión del proyecto](docs/academicos/SIE_Individual_Anexo-I_GestionProyecto.pdf) | Sugerido |
 
-> **Antes de entregar:** completar URL del repositorio, contacto institucional de soporte, verificar nomenclatura individual y que una persona ajena al proyecto pueda seguir el manual. Algunos PDF señalan estos pendientes con transparencia.
+> **Enlaces confirmados:** [repositorio](https://github.com/KIRZONMAN/mesahelp-mvp) y [portal](https://kirzonman.github.io/mesahelp-mvp/). Para incidencias técnicas se indica [GitHub Issues](https://github.com/KIRZONMAN/mesahelp-mvp/issues), sin compartir datos privados. **Pendientes reales:** validar el manual con una persona ajena al proyecto, confirmar nomenclatura individual con el docente, revisar licenciamiento/privacidad y hacer el ensayo.
 
 ## GitHub Pages no es el servidor de MesaHelp
 
@@ -97,4 +97,4 @@ Más detalle en [arquitectura](docs/ARQUITECTURA_V03.md) y [estado de validació
 
 ## Créditos y licenciamiento
 
-Proyecto académico desarrollado por Hector Alejandro Garcés, con asistencia de herramientas de IA durante auditoría, documentación y correcciones. La configuración de agentes no prueba que cada agente se haya ejecutado. **Antes de hacer público el repositorio, revisar el campo `license` del `package.json` (actualmente MIT) y decidir conscientemente si mantener esa licencia y añadir el texto correspondiente.**
+Proyecto académico desarrollado por Hector Alejandro Garcés, con asistencia de herramientas de IA durante auditoría, documentación y correcciones. La configuración de agentes no prueba que cada agente se haya ejecutado. **Repositorio público:** `package.json` declara MIT; revisar la conveniencia de incluir el archivo `LICENSE` correspondiente y los derechos de recursos de terceros antes de su distribución ulterior.
