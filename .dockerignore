@@ -1,0 +1,9 @@
+data
+node_modules
+.env
+.git
+*.zip
+*.bak
+*.sqlite*
+.DS_Store
+backups/

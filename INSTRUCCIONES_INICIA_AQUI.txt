@@ -1,0 +1,13 @@
+MESAHELP — KIT DE PUBLICACIÓN Y ENTREGA
+
+1. MesaHelp_GitHub_Repositorio.zip:
+   Extrae el ZIP en una carpeta NUEVA, verifica código y PDFs, crea repo GitHub manualmente y publica con comandos de PUBLICACION_GITHUB.md.
+   Incluye web estática de documentación habilitable en GitHub Pages.
+2. MesaHelp_Entrega_Universitaria_BORRADOR.zip:
+   Estructura solicitada por Jefferson: Anexos A-I, ENLACES.txt, código instalable.
+   Actualizar el enlace real y los pendientes ANTES de enviarlo.
+3. No necesitas ni debes subir bases SQLite privadas, credenciales ni sesiones.
+4. GitHub Pages publica solamente los documentos, no ejecuta el servidor Node.js.
+5. Versión de app: v0.3.1 · Windows 33/33 tests del usuario · 8 escenarios manuales favorables.
+
+Repositorio propuesto: KIRZONMAN/mesahelp-mvp (no creado en el momento de generar este kit).

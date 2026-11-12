@@ -1,0 +1,14 @@
+digraph Flow {
+  graph [bgcolor="white", rankdir=LR, nodesep=0.4, ranksep=0.5];
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=12, color="#D6DCF0", fillcolor="#F5F6FC"];
+  edge [color="#7765D8", arrowsize=0.8,fontname="DejaVu Sans",fontsize=9];
+  a [label="Registrar\nsolicitud",fillcolor="#F0EEFE"];
+  b [label="Ticket Abierto\n+ evento histórico",fillcolor="#E8F4FE"];
+  c [label="Coordinación\nrevisa y registra nota"];
+  d [label="Cambiar estado\n(cualquiera válido)"];
+  e [label="Historial y Live\nnotifican la actualización",fillcolor="#E9F9F1"];
+  f [label="Consulta / reporte / CSV\nsegún permisos",fillcolor="#F0EEFE"];
+  a -> b -> c -> d -> e -> f;
+  note [shape=plaintext,label="El MVP permite cambios directos entre estados; no exige una secuencia estricta.",fontcolor="#67718C",fontsize=9];
+  d -> note [style=dotted,arrowhead=none];
+}

@@ -1,0 +1,30 @@
+name: MesaHelp - Pruebas y validadores
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  regresion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener codigo
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.16.0'
+      - name: Verificar entorno
+        run: node --version
+      - name: Pruebas automatizadas (33 casos en la candidata validada)
+        run: npm test
+      - name: Validar configuraciones de agentes
+        run: npm run check:agents
+      - name: Validar configuraciones Codex
+        run: npm run check:codex

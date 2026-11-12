@@ -1,0 +1,5 @@
+# Configuración local de Codex para MesaHelp.
+# Los agentes usan el modelo de la sesión principal (ChatGPT); no hay proveedor API ni MCP configurado.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 2

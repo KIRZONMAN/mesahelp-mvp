@@ -1,0 +1,30 @@
+# Datos, sesiones y secretos: NUNCA publicarlos
+data/
+backups/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.bak
+*.log
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+.nyc_output/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.zip
+*.7z
+*.rar
+# Archivos personales de sesiones o respaldos
+.codex-log/
+.codex-session*.jsonl
+.claude-session*.jsonl
+.cache/
+tmp/
